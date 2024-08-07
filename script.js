@@ -7,4 +7,13 @@ $(document).ready(function(){
         rotation: 360,
         x: 0
     })
+
+    gsap.set(".slogan", {
+        y: 500
+    })
+    gsap.to(".slogan", {
+        delay: 2,
+        duration: 1,
+        y: 0
+    })
 })
